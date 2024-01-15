@@ -315,9 +315,96 @@ nav {
   font-weight: 800;
 }
 
+/*! Why Choose us Section Styles  */
+.why-choose-us {
+  margin-top: 100px;
+}
+
+.why-choose-us-first-card-container h2 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+.why-choose-us-text-title {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.why-choose-us-text-des {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.why-choose-us-first-row-container p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.why-choose-us-first-row-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.choose-us-first-card {
+  width: 473px;
+  height: 200px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 30px;
+}
+
+.choose-us-second-card {
+  width: 473px;
+  height: 200px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 30px;
+}
+
+.why-choose-us-card2-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.choose-us-container2-card {
+  width: 473px;
+  height: 200px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 30px;
+  
+}
+
+.choose-us-container2-card  p{
+    color: #5a5a5d;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
 
 
 
+
+@media screen and (max-width: 1024px) {
+  .popular-tours-container {
+    margin-bottom: 500px;
+  }
+}
 
 /*! Mobile Screen Styles  */
 @media screen and (max-width: 600px) {
@@ -407,5 +494,26 @@ nav {
   }
   .third-row-img2 {
     width: 100%;
+  }
+
+  .why-choose-us-first-row-container {
+    flex-direction: column;
+  }
+
+  .choose-us-first-card {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .choose-us-second-card {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .choose-us-container2-card {
+    width: 90%;
+    height: 100%;
   }
 }
