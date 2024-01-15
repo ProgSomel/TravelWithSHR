@@ -1,0 +1,90 @@
+/*! Shared Styles  */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+.bg-primary {
+    background-color: #FF5400;
+}
+
+.text-primary {
+    color: #FF5400;
+}
+
+
+
+/* Desktop or Laptop Screen Style  */
+
+
+  /*! header Styles  */
+  header {
+    width: 91%;
+    margin: 30px auto;
+  }
+
+  
+  /*! Navbar Styles  */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+  }
+
+  .title span {
+    color: #ff5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+  }
+
+  .li-container ul {
+    display: flex;
+    gap: 15px;
+  }
+
+  .li-container ul li {
+    list-style: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .li-container ul li:first-child {
+    color: #FF5400;
+  }
+
+  .menu {
+    display: none;
+  }
+
+
+/*! Mobile Screen Styles  */
+@media screen and (max-width: 600px){
+    .li-container ul li {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
