@@ -154,9 +154,8 @@ nav {
   display: flex;
   gap: 50px;
   height: 570px;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
-
 
 .popular-tours-container p {
   color: #5a5a5d;
@@ -181,7 +180,6 @@ nav {
 
 .popular-tours-des {
   height: 570px;
-
 }
 
 .popular-tours-des-title {
@@ -193,12 +191,11 @@ nav {
 }
 
 .popular-tours-des-img {
-    height: 570px;
+  height: 570px;
 }
 
 .popular-tours-des-img img {
-    height: 570px;
-
+  height: 570px;
 }
 
 .popular-tours-btn {
@@ -211,6 +208,112 @@ nav {
   font-size: 15px;
 }
 
+/*! Choose your Destination Section Styles  */
+.choose-destination-title {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 1em;
+}
+
+.choose-destination-des {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  width: 60%;
+  margin: 15px auto;
+}
+
+.first-row-img-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.second-row-img-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.third-row-img-container {
+  display: flex;
+  gap: 20px;
+}
+
+.first-row-img1 {
+  background: url("../Images/Rectangle 5.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 573px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.first-row-img2 {
+  background: url("../Images/Rectangle 8.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 573px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.second-row-img1 {
+  background: url("../Images/Rectangle 6.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 374px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.second-row-img2 {
+  background: url("../Images/Rectangle 7.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 474px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.second-row-img3 {
+  background: url("../Images/Rectangle 9.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 274px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.third-row-img1 {
+  background: url("../Images/Rectangle 11.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 473px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.third-row-img2 {
+  background: url("../Images/Rectangle 10.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 673px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.choose-destination-img-container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+  height: 300px;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
+}
 
 
 
@@ -264,7 +367,45 @@ nav {
   .popular-tours-des-img img {
     width: 100%;
     height: 250px;
-
   }
 
+  .choose-our-destination-container {
+    margin-top: 750px;
+  }
+
+  .first-row-img-container {
+    flex-direction: column;
+  }
+
+  .second-row-img-container {
+    flex-direction: column;
+  }
+
+  .third-row-img-container {
+    flex-direction: column;
+  }
+
+  .first-row-img1 {
+    width: 100%;
+  }
+  .first-row-img2 {
+    width: 100%;
+  }
+  .second-row-img1 {
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+  }
+  .second-row-img2 {
+    width: 100%;
+  }
+  .second-row-img3 {
+    width: 100%;
+  }
+  .third-row-img1 {
+    width: 100%;
+  }
+  .third-row-img2 {
+    width: 100%;
+  }
 }
