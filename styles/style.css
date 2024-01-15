@@ -16,6 +16,19 @@
   color: #ff5400;
 }
 
+.btn-primary {
+  width: 150px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+}
+
 /* Desktop or Laptop Screen Style  */
 
 /*! header Styles  */
@@ -374,9 +387,9 @@ nav {
 }
 
 .why-choose-us-card2-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 .choose-us-container2-card {
@@ -386,18 +399,98 @@ nav {
   border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
   padding: 30px;
-  
 }
 
-.choose-us-container2-card  p{
-    color: #5a5a5d;
-    font-family: Mulish;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 10px 0;
+.choose-us-container2-card p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0;
 }
 
+/*! Deals and Discount Section Styles  */
+.first-discount-card-container {
+    background: url('../Images/Group 39.png');
+    display: flex;
+    justify-content: end;
+    padding: 40px;
+    border-radius: 16px;
+    margin-top: 40px;
+}
 
+.deals-discount-card {
+  width: 579px;
+  height: 389px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px ;
+}
+
+.deal-discount-title {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 100px;
+}
+
+.deals-discount-card-des-title {
+  margin: 20px 0;
+
+}
+
+.deals-discount-card-des-des {
+    margin-bottom: 20px;
+}
+
+.deals-discount-card-des-price {
+    margin-bottom: 20px;
+}
+
+.deals-discount-des {
+  width: 90%;
+  margin: 20px auto;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.deals-discount-first-card-firstLine {
+  display: flex;
+  gap: 20px;
+}
+
+.deals-discount-first-card-firstLine div {
+  display: flex;
+  gap: 5px;
+}
+
+.second-discount-card-container {
+    background: url('../Images/Group 40.png');
+    display: flex;
+    justify-content: start;
+    padding: 40px;
+    border-radius: 16px;
+    margin-top: 40px;
+}
+
+.packages-btn {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.see-all-pkg-btn {
+    width: 200px;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -515,5 +608,30 @@ nav {
   .choose-us-container2-card {
     width: 90%;
     height: 100%;
+  }
+
+  .first-discount-card-container {
+    justify-content: center;
+
+  }
+  .second-discount-card-container {
+    justify-content: center;
+
+  }
+
+  .deals-discount-card {
+    width: 80%;
+    height: 50%;
+  margin: 20px auto;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  }
+
+  .deals-discount-card div {
+    height: 50%;
+    padding: 10px 0;
   }
 }
