@@ -411,12 +411,12 @@ nav {
 
 /*! Deals and Discount Section Styles  */
 .first-discount-card-container {
-    background: url('../Images/Group 39.png');
-    display: flex;
-    justify-content: end;
-    padding: 40px;
-    border-radius: 16px;
-    margin-top: 40px;
+  background: url("../Images/Group 39.png");
+  display: flex;
+  justify-content: end;
+  padding: 40px;
+  border-radius: 16px;
+  margin-top: 40px;
 }
 
 .deals-discount-card {
@@ -429,7 +429,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 50px ;
+  padding: 0 50px;
 }
 
 .deal-discount-title {
@@ -443,15 +443,14 @@ nav {
 
 .deals-discount-card-des-title {
   margin: 20px 0;
-
 }
 
 .deals-discount-card-des-des {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .deals-discount-card-des-price {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .deals-discount-des {
@@ -475,22 +474,96 @@ nav {
 }
 
 .second-discount-card-container {
-    background: url('../Images/Group 40.png');
-    display: flex;
-    justify-content: start;
-    padding: 40px;
-    border-radius: 16px;
-    margin-top: 40px;
+  background: url("../Images/Group 40.png");
+  display: flex;
+  justify-content: start;
+  padding: 40px;
+  border-radius: 16px;
+  margin-top: 40px;
 }
 
 .packages-btn {
-    text-align: center;
-    margin: 40px 0;
+  text-align: center;
+  margin: 40px 0;
 }
 
 .see-all-pkg-btn {
-    width: 200px;
+  width: 200px;
 }
+
+/*! Place to Get lost Section Styles  */
+.perfect-place-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 100px;
+}
+
+.perperfect-place-des-tilte {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.perperfect-place-des-des {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.perperfect-place-des-container ul {
+  margin-left: 30px;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  margin-top: 10px;
+}
+
+.perperfect-place-des-container button {
+  margin-top: 30px;
+}
+
+.perperfect-place-video-container video {
+  background-color: #fff;
+  color: #fff;
+}
+
+.perperfect-place-des-container {
+  height: 424px;
+  width: 50%;
+}
+
+.perfect-place-video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfect-place-video-container h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+}
+
+.perfect-place-video-container {
+  background: url("../Images/Group 40089.png");
+  background-repeat: no-repeat;
+  height: 424px;
+  width: 50%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+
 
 
 @media screen and (max-width: 1024px) {
@@ -612,26 +685,38 @@ nav {
 
   .first-discount-card-container {
     justify-content: center;
-
   }
   .second-discount-card-container {
     justify-content: center;
-
   }
 
   .deals-discount-card {
     width: 80%;
     height: 50%;
-  margin: 20px auto;
-  color: rgba(19, 19, 24, 0.7);
-  text-align: center;
-  font-family: Mulish;
-  font-size: 16px;
-  font-weight: 400;
+    margin: 20px auto;
+    color: rgba(19, 19, 24, 0.7);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
   }
 
   .deals-discount-card div {
     height: 50%;
     padding: 10px 0;
   }
+
+  .perfect-place-container {
+    flex-direction: column;
+  }
+
+  .perperfect-place-des-container {
+    width: 100%;
+  }
+
+  .perfect-place-video-container {
+    width: 100%;
+    margin-top: 220px;
+  }
+
 }
